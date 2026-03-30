@@ -1,0 +1,24 @@
+body
+{
+    margin: 0;
+    background-color: #cfd9df;
+}
+
+table
+{
+    margin: 10px;
+    border-collapse: collapse;
+}
+table td
+{
+    padding: 10px;
+}
+caption, table th
+{
+    padding: 5px;
+    font-size: 24px;
+}
+table tr
+{
+    border-bottom: 1px solid black;
+}

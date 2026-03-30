@@ -1,0 +1,30 @@
+body
+{
+    background-color: 	#cfd9df;
+    margin: 0;
+}
+div
+{
+    margin: 10px;
+}
+
+
+.definicja{
+    border-left: 5px solid crimson;
+    background-color:darkgray;
+    border-radius: 10px;
+}
+input
+{
+    margin: 10px;
+    border-radius: 10px;
+    border-style: outset;
+}
+.dymek
+{
+    background-color: aqua;
+    width: 300px;
+    text-align: center;
+    border-radius: 99px 20px 99px 0px;
+    padding: 20px;
+}

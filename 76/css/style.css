@@ -1,0 +1,27 @@
+body
+{
+    background-color:#cfd9df;
+    margin: 0;
+}
+
+#menu_strony a:link, #menu_strony a:visited
+{
+    text-decoration: none;
+    color: black;
+    border: 1px solid cornflowerblue;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#menu_strony a:hover, #menu_strony a:active
+{
+    text-decoration: underline;
+    background-color: yellow;
+    color: green;
+}
+/* cornflowerblue  ten kolor był wyżej*/
+a:link
+{
+    text-decoration: none;
+}

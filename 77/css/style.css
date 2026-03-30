@@ -1,0 +1,24 @@
+body
+{
+    background-color:#cfd9df;
+    margin: 0;
+}
+
+
+ul
+{
+    list-style-image: url("../images/tick.png");
+}
+
+/*ul
+{
+    list-style-type: none;
+}*/
+ul li::before
+{
+
+    content: "->" ;
+    /* "\2714\00A0"; */
+    /* te 00a0 to spacja xD */
+    color: blue;
+}

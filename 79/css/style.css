@@ -1,0 +1,29 @@
+body
+{
+    background-color:#cfd9df;
+    margin: 0;
+}
+
+img {
+opacity: 0.95;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+
+[data-help] /* to jest tzw. atrybut nazywany, sam sobie go wymyslasz */
+{
+    cursor: help; /* są inne, jest ich dużo ! xD */
+}
+
+[data-help]:hover::after
+{
+    content: attr(data-help);
+    background-color: rgba(0, 255, 255, 0.781);
+    padding: 15px;
+    position: absolute;
+    border-radius: 0px 40px 0px 40px;
+
+}
