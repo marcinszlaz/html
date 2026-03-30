@@ -1,0 +1,31 @@
+body
+{
+    background-color: 	#cfd9df;
+    margin: 0;
+    color: gray;
+}
+div
+{
+    color: beige;
+    font-weight: bold;
+}
+.type1
+{
+    background-color: red;
+    color: blueviolet;
+}
+
+.type2
+{ 
+    background-color: green;
+    font-size: 35px;
+}
+#test
+{
+    color: red;
+    font-weight: unset;
+}
+#test p
+{
+    color: black;
+}

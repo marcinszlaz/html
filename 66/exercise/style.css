@@ -1,0 +1,14 @@
+.main-title
+{
+    color: blue;
+}
+p.description
+{
+    color: green;
+    font-size: 18px;
+}
+p#unique
+{
+    color: red;
+    font-weight: bold;
+}

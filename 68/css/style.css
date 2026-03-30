@@ -1,0 +1,23 @@
+body
+{
+    background-color: 	#cfd9df;
+    margin: 0;
+}
+div
+{
+    background-color: aqua;
+}
+span
+{
+    background-color: red;
+}
+
+.text
+{
+    width: 800px;
+    text-align: center;
+}
+#unique-sample
+{
+    text-align: center;
+}
