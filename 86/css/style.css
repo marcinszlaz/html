@@ -1,0 +1,38 @@
+body
+{
+    background-color: #cfd9df;
+    background-image: url('../images/main-background.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;    
+}
+
+h1
+{
+    text-align: center;
+    display: block;
+    color: lightblue;
+    background-image: url('../images/tlo.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+}
+.przyklad
+{
+
+   
+    text-align: justify;
+    
+    text-indent: 50px;
+    width: 70%;
+    padding: 10px;
+}
+.przyklad::first-letter
+{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+

@@ -1,0 +1,34 @@
+body
+{
+    background-color:#cfd9df;
+    margin: 0;
+}
+.przyklad
+{
+    text-align: justify;
+    background-color: lightyellow;
+    padding: 10px;
+}
+input
+{
+    text-transform: capitalize;
+}
+
+
+
+[data-help]
+{
+
+    cursor: help;
+    text-decoration: underline dotted orange;
+}
+
+[data-help]:hover::after
+{
+    content: attr(data-help);
+    background-color: rgba(0, 255, 255, 0.781);
+    padding: 15px;
+    position: absolute;
+    border-radius: 10px;
+    
+}
