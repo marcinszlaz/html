@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+#kontener
+{
+    margin: 0 auto;
+    display: block;
+    background-color: red;
+    width: 900px;
+}
+.link
+{
+    display: inline-block;
+    background-color: aqua;
+    padding: 25px;
+    border-left: 9px solid gainsboro;
+    margin-left: 9px;
+    width: calc(900px / 6 - 2 * 25px - 9px - 9px);
+    text-align: center;
+
+
+    /*
+    150 - 10 - 10 - 5 - 5 = 120
+    width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
+    */
+}

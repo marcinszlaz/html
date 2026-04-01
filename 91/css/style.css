@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+:root
+{
+    --kontener-width: 900px;
+}
+#kontener
+{
+    margin: 0 auto;
+    display: block;
+    background-color: red;
+    width: var(--kontener-width);
+}
+.link
+{
+    --link-padding: 15px;
+    --link-border-left: 3px;
+    --link-margin-left: 20px;
+
+    padding: var(--link-padding);
+    margin-left: var(--link-margin-left);
+    border-left: var(--link-border-left) solid gainsboro;
+    box-sizing: border-box;
+    width: calc(var(--kontener-width) / 6 - var(--link-margin-left));
+
+    display: inline-block;
+    background-color: aqua;   
+    text-align: center;
+    /*
+    ZMIENNE
+
+
+    150 - 10 - 10 - 5 - 5 = 120
+    width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
+    */
+}

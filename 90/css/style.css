@@ -1,0 +1,43 @@
+* { /* astrix -> * znaczy wszystko na stronie */
+    margin: 0;
+}
+:root /* to jest inna nazwa na html, główny tak, ale nie używa się html tylko standard wymaga użycia pseudoklasy :root, chociaż nie wiem czy w tym kontekscie to jest pseudoklasa xD */
+{
+    --kontener-width: 900px; /* w css --nazwa-zmiennej, po prostu, deklaracja zmiennej i definicja  i to jest zmienna globalna, global scope xD bo w ruót */
+}
+#kontener
+{
+    margin: 0 auto;
+    display: block;
+    background-color: red;
+
+    width: var(--kontener-width); /* wywołanie zmiennej var, jak w javascript */
+}
+.link
+{
+    --link-padding: 15px;
+    --link-border-left: 3px;
+    --link-margin-left: 20px;
+
+    padding: var(--link-padding);
+    margin-left: var(--link-margin-left);
+    border-left: var(--link-border-left) solid gainsboro;
+
+    width: calc(var(--kontener-width) / 6 - 2 * var(--link-padding) - var(--link-border-left) - var(--link-margin-left));
+
+    display: inline-block;
+    background-color: aqua;   
+    text-align: center;
+    /*
+    ZMIENNE
+
+
+    150 - 10 - 10 - 5 - 5 = 120
+    width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
+    */
+}
+.sample
+{
+    background-color: blue;
+    width: var(--kontener-width);
+}
