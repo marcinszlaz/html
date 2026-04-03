@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+#container
+{
+    width:  1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#top
+{
+    position: relative;
+    background-color: #262726;   
+    padding: 50px;
+}
+#menu
+{
+    position: sticky; /* dzięki temu przewijając w dół, element klei się i mimo że przewijasz zawartość, to element widzisz */
+    top: 0; /* tutaj ustawiasz ile px od góry ma się kleić, w trakcie przewijania */
+    padding: 15px;
+    margin: 1px 0;
+    background-color: #0f3250;
+    
+}
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#middle
+{
+    background-color: #ececec;
+    padding: 50px;
+}
+#container address
+{
+    color: teal;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#goToTop
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(38, 39, 38, 0.9);
+    padding: 20px;
+    color: teal;
+    text-decoration: none;
+}
+#goToTop:hover
+{
+    background-color: rgba(38, 39, 38);
+}
+
+h1, h2
+{
+    margin: 20px 0;
+}
+#obrazek
+{
+    float: right;
+    margin-left: 30px;
+}
+p
+{
+    text-align: justify;
+}

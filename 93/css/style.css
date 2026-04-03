@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+#container
+{
+    position: relative;
+    background-color: #262726;
+    box-sizing: border-box; /* to przelicza automatycznie, szerokość i padding, np jakbyś dał width:100% to wtedy padding spowodowałby, że zawartość taga addresss wyjechałaby poza widoczny obszar strony */
+    width:  700px;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+#container address /* mozna też #container>address, jak w Selenium ale wtedy ograniczamy się tylko do pierwszego wystąpienia tagu address w czymś co jest id container, a z spacją ` ` xD mamy dostęp do wszystkich dzieci, nie tylko pierwszego */
+{
+    color: teal;
+    position: absolute; /* ustawiony absolutnie ale względem rodzica, bo rodzic (czyli #container) ma position: relative, jakby nie miał to ten position: absolute; tutaj pozycjonowałby względem całej strony, nie rodzica */
+    right: 20px;
+    top: 20px;
+}

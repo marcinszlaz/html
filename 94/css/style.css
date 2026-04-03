@@ -1,0 +1,37 @@
+/* CAŁOŚĆ JEST ZAMKNIĘTA W JEDNYM DIV, pozostałe DIV'y dziedziczą cechy po rodzicu, nie trzeba powtarzać kodu */
+
+* {    /* astrix, margines 0 for all kingdom  ! */
+    margin: 0;
+}
+
+#container
+{
+    width:  1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#sample
+{
+    background-color: red;
+    padding:20px;
+
+}
+#top
+{
+    position: relative;
+    background-color: #262726;   
+    padding: 50px;
+}
+#middle
+{
+    background-color: #ececec;
+    padding: 50px;
+}
+#container address
+{
+    color: teal;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+

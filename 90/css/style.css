@@ -11,7 +11,7 @@
     display: block;
     background-color: red;
 
-    width: var(--kontener-width); /* wywołanie zmiennej var, jak w javascript */
+    width: var(--kontener-width); /* wywołanie zmiennej var, jak w javaScript */
 }
 .link
 {
