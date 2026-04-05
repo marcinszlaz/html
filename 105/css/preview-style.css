@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button
+{
+    margin-top: 10px;
+    padding: 10px;
+}	
+.modal-content
+{
+    background-color: aqua;
+    padding: 30px;
+    width: 240px;    
+    text-align: center;
+
+}
+.modal-box
+{
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    place-items: center;
+}

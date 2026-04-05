@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html { 
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin-bottom: 95px;
+}
+
+#container
+{
+    width:  1200px;
+    box-sizing: border-box;
+
+    margin: 0 auto 30 auto;
+}
+#top
+{
+    position: relative;
+    background-color: #262726;   
+    padding: 50px;
+    
+}
+#menu
+{
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    margin: 1px 0;
+    background-color: #0f3250;
+    
+}
+#middle
+{
+    background-color: #ececec;
+    padding: 50px;
+    height: 400px;
+    overflow: scroll;
+}
+#container address
+{
+    color: teal;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#goToTop
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(38, 39, 38, 0.9);
+    padding: 20px;
+    color: teal;
+    text-decoration: none;
+    z-index: 1
+}
+#goToTop:hover
+{
+    background-color: rgba(38, 39, 38);
+}
+
+h1, h2
+{
+    margin: 20px 0;
+}
+#obrazek
+{
+    float: right;
+    margin-left: 30px;
+}
+p
+{
+    text-align: justify;
+}
+
+/* MENU ROZWIJANE */
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+#menu > ul > li > a
+{
+    padding: 20px 0;
+    margin-left: 10px;
+}
+#menu ul
+{
+    list-style-type: none;
+}
+#menu ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+.submenu
+{
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+#menu ul li:hover .submenu
+{
+    display: block;
+}
+.submenu::before
+{
+    content: '';
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+
+.submenu a
+{
+    background-color: #0f3250;
+    display: block;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.submenu a:hover
+{
+    background-color: rgba(15, 50, 80, 0.9);
+}
+
+
+
+
+
+
+
+.kwadracik
+{
+    position: absolute;
+    
+    width: 100px;
+    height: 100px;
+}
+#footer
+{
+    background-color: #0f3250;
+    padding: 20px;
+}
+
+#cookie-message
+{
+    background-color: rgba(128, 128, 128, 0.9);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    display: block;
+}
+#cookie-message div
+{
+    
+    width: 70%;
+    margin: 0 auto;
+    
+}
