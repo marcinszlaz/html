@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+.zmienKolor
+{
+    color: red;
+}
+.zmienKolorCzarny{
+    color: black;
+}
+#test {
+    display:inline-block;
+    /* background-color: blueviolet; */
+}
+
+div#button {
+    
+    color: white;
+    background-color: coral;
+    border: 1px solid brown;    
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+    opacity: 0.8;
+    cursor: progress;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
+
+}
+
+div#button:hover {
+    color: white;
+    background-color: coral;
+    border: 1px solid brown;    
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+    opacity: 1.0;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translate(3px,3px);
+    /* transform: translateY(3px); */
+    /* transform: translateX(3px); */
+}

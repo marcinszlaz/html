@@ -1,0 +1,32 @@
+.zmienKolor
+{
+    color: red;
+}
+#tooltip
+{
+    padding: 10px;
+    display: none;
+    background-color: teal;
+    position: absolute;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    color: aqua;
+}
+#test
+{
+    background-color: red;
+    height: 50px;
+    width: 300px;
+
+}
+#pogrubiony
+{
+    background-color: yellow;
+    height: 50px;
+    width: 150px;
+}
+#przycisk
+{
+    background-color: teal;
+}
