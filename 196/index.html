@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Uzupełniacze (polyfill) dla formularzy by Arkadiusz Włodarczyk</title>        
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>        
+        <script src="modernizr.js"></script>
+        <script src="js-webshim/minified/polyfiller.js"></script>
+    </head>
+    <body> 
+       
+        <form id="myform">
+                Twój ulubiony kolor: <input type="text" list="kolor">
+            <datalist id="kolor">
+                <option value="czerwony">
+                <option value="zielony">
+                <option value="zółty">
+                <option value="biały">
+                <option value="czarny">               
+            </datalist>
+                
+            Szukaj: <input type="search" name="searchedValue">
+            
+            Email: <input type="email" required>
+            URL: <input type="url" placeholder="http://">
+            Tel: <input type="tel" pattern="^\d{2} \d{3}( |-)?\d{2}( |-)?\d{2}$" placeholder="00 000 00 00">
+            
+            <!-- 14 611-25-02 -->
+            
+            <input type="number" value="0" min="0" max="20" step="2">
+            <input type="range" value="0" min="0" max="20" step="1" id="rangeTest">
+            <input type="text" id="valueFromRange">
+            
+            <input type="color">
+            
+            Czas: <input type="time">
+            Tydzień: <input type="week">
+            Miesiąc: <input type="month">
+            Data: <input type="date">
+            Data i czas: <input type="datetime">
+            Data i czas lokalny: <input type="datetime-local">
+            
+            
+        
+            
+            <input type="submit" value="Prześlij">     
+            
+            
+        </form>
+
+
+        <script src="script.js"></script>        
+    </body>
+</html>
