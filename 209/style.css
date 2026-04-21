@@ -1,0 +1,32 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 10px;
+}
+div.naglowek
+{
+	background-color: #BBB;
+	width: 416px;
+	padding: 7px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+}
+div.naglowek span
+{
+	font-style: italic;
+	cursor: pointer;
+}
+div.ukryty_tekst
+{
+	background-color: #CCC;
+	width: 400px;
+	padding: 15px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	display: none;	
+}
