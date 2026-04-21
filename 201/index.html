@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Drag and drop - sklep z koszykiem - Arkadiusz Włodarczyk</title>        
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>  
+        <script src="jquery.ndd.js"></script>  
+        <script src="modernizr.js"></script>
+
+        
+    </head>
+    <body>
+        <header><h1>Sklep z Video Kursami</h1></header>
+        
+        <ul id="produkty">
+            <li>
+                <section class="przedmiot" id="video-kurs-csharp" draggable="true">
+                    <img src="video-kursy/csharp.png" alt="Video Kurs C#" />
+                    <div class="opis">
+                        <h2 class="nazwa">Video Kurs C#</h2>
+                        <div><b>Cena:</b> <span class="cena">57.00</span> zł</div>
+                    </div>                    
+                </section>                
+            </li>      
+        <li>
+            <section class="przedmiot" id="video-kurs-cpliki" draggable="true">			
+                <div class="opis">
+                        <h2 class="nazwa">Video Kurs C++ - Obsługa Plików</h2>
+                        <div><b>Cena</b>: <span class="cena">24.00</span> zł</div>				
+                </div>
+                <img src="video-kursy/cpliki.gif" alt="Video Kurs C++ - Obsługa Plików" />
+            </section>
+        </li>                     
+        <li>
+            <section class="przedmiot" id="video-kurs-java" draggable="true">
+                <div class="opis">
+                        <h2 class="nazwa">Video Kurs Java</h2>
+                        <div><b>Cena</b>: <span class="cena">49.00</span> zł</div>				
+                </div>
+                <img src="video-kursy/java.gif" alt="Video Kurs Java" />
+            </section>
+        </li>     
+        <li>
+            <section class="przedmiot" id="video-kurs-mysql" draggable="true">
+                <div class="opis">
+                        <h2 class="nazwa">Video Kurs MySQL</h2>
+                        <div><b>Cena</b>: <span class="cena">47.00</span> zł</div>				
+                </div>
+                <img src="video-kursy/mysql.gif" alt="Video Kurs MySQL" />
+            </section>
+        </li>     
+        <li>
+            <section class="przedmiot" id="video-kurs-mysqli" draggable="true">
+                <div class="opis">
+                        <h2 class="nazwa">Video Kurs MySQLi</h2>
+                        <div><b>Cena</b>: <span class="cena">47.00</span> zł</div>				
+                </div>
+                <img src="video-kursy/mysqli.gif" alt="Video Kurs MySQLi" />
+            </section>
+        </li>    
+        <li>
+            <section class="przedmiot" id="video-kurs-xhtml-css" draggable="true">
+
+                <div class="opis">
+                        <h2 class="nazwa">Video Kurs XHTML CSS</h2>
+                        <div><b>Cena</b>: <span class="cena">47.05</span> zł</div>				
+                </div>
+                <img src="video-kursy/xhtml-css.gif" alt="Video Kurs XHTML i CSS" />
+            </section>
+        </li>              
+        </ul>
+        
+        <aside id="kontener_koszyka">
+            <h2 id="naglowek_koszyka">Koszyk</h2>
+            <ul id="koszyk">
+                
+            </ul>
+            <div id="info_przeniesienie">Przenieś przedmiot tutaj</div>
+            <div id="cena"><b>Razem: </b><span>0.00</span> zł</div>
+        </aside>
+            
+        
+           
+     <script src="script.js"></script>
+    </body>
+</html>
