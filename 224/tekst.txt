@@ -1,0 +1,20 @@
+XML - eXtensible Markup Language - rozszerzalny jêzyk znaczników (tagów)
+XML - jest po to, aby przechowywaæ dane oraz je transportowaæ
+
+<news> 
+	<title>
+		Tytu³ek naszego newsa
+	</title>
+	<date>
+		22.10.2009
+	</date>
+	<content>
+		Witajcie na mojej stronie!
+	</content>
+</news>
+
+<b>pogrubiony tekst</b>
+
+
+
+Tytu³ek naszego newsa, 22.10.2009, Witajcie na mojej stronie!

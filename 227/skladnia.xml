@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- 
+	1. Element główny może być tylko jeden i musi istnieć
+	2. Co ma początek ma też i koniec :-)
+	3. Tagi muszą być identyczne, liczy się wielkość liter.
+	4. Tagi muszą być poprawnie zagnieżdzone
+	5. Można używać polskich znaków, ale nie powinno się.
+	6. Nie wolno używać liczb na początku tagów
+	7. Mogą zawierać dowolny znak z przedziału [0-9], [a-z], [A-Z] oraz znaki diakrytyczne i dodatkowo znaki specjalne: "-", "_", "."
+	8. Wartość atrybutów musi być w apostrofach albo cudzysłowach.
+	9. Atrybut musi posiadać wartość
+	10. Encje są to tak jakby szablony tekstów np.:
+		&lt; - less than - <
+		&gt; - greater than - >
+		&quot; - quote - "
+		&apos; - apos - '
+		&amp; - ampersand - & 
+		
+ -->
+
+<wizytow.ki>
+	<wizytówk_a>
+		<a href="http://videokurs.pl" title=' "to jest jakaś treść w cudzysłowie" '>link</a>
+		<b><i> tu jest jakiś pogrubiony tekst</i></b>
+	</wizytówk_a>
+	<wizytowk-a>
+		&lt;b&gt;
+	</wizytowk-a>
+	<wizytowka>
+		<a href="http://videokurs.pl" title=" &quot;to jest jakaś treść w cudzysłowie&quot; ">link</a>
+	</wizytowka>
+	<wizytowka>
+		<informacja>
+			<![CDATA[  <b> </b> ]]>
+</informacja>
+	</wizytowka>
+</wizytow.ki>
