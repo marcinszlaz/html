@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT wizytowki (wizytowka*)>
+
+<!ELEMENT wizytowka (imie, nazwisko, (telefon | e-mail)+, website)>
+<!ATTLIST wizytowka id ID #REQUIRED>
+
+<!ELEMENT imie (#PCDATA)>
+
+<!ELEMENT nazwisko (#PCDATA)>
+
+<!ELEMENT telefon (#PCDATA)>
+<!ATTLIST telefon typ (praca | fax | komorka | domowy) #REQUIRED>
+
+<!ELEMENT e-mail (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT wizytowki (wizytowka*)>
+
+<!ELEMENT wizytowka (imie, nazwisko, (telefon | e-mail)+, website)>
+<!ATTLIST wizytowka id ID #REQUIRED>
+
+<!ELEMENT imie (#PCDATA)>
+
+<!ELEMENT nazwisko (#PCDATA)>
+
+<!ELEMENT telefon (#PCDATA)>
+<!ATTLIST telefon typ (praca | fax | komorka | domowy) #REQUIRED
+                      inny_atrybut CDATA #IMPLIED>
+<!-- <!ATTLIST telefon typ (praca | komorka | fax | domowy) #REQUIRED>-->
+
+<!ELEMENT e-mail (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+
+<!-- <!ELEMENT nazwa_elementu category_lub_zawartosc_elementu>
+         <!ELEMENT wizytowki EMPTY>
+         element wizytowki moze byc tylko pusty
+         <!ELEMENT wizytowki (wizytowka)>
+         element wizytowki musi posiadać dokładnie jeden element o nazwie wizytowka
+         
+         #PCDATA = Parsed Character Data 
+         
+         <!ELEMENT wizytowki (wizytowka*)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 0 lub wiecej razy
+         <!ELEMENT wizytowki (wizytowka+)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 1 lub wiecej razy
+         <!ELEMENT wizytowki (wizytowka?)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 0 lub 1 raz
+         
+         <!ATTLIST nazwa_elementu_w_ktorym_znajduje_sie_atrybut nazwa_atrybutu zawartosc_atrybutu domyslna_wartosc>
+         
+         <!ATTLIST telefon typ (praca | komorka) #REQUIRED>
+         deklaracja atrybutu o nazwie "typ", ktory znajduje sie w
+         elemencie telefon, atrybut ten może posiadać jako wartość:
+         praca lub komorka i wartość ta jest wymagana
+         <!ATTLIST telefon typ (praca | komorka) #IMPLIED>
+         deklaracja atrybutu o nazwie "typ", ktory znajduje sie w
+         elemencie telefon, atrybut ten może posiadać jako wartość:
+         praca lub komorka i wartość ta jest opcjonalna
+         
+         <!ATTLIST telefon typ (praca | komorka) "brak">
+         deklaracja atrybutu o nazwie "typ", ktory znajduje sie w
+         elemencie telefon, atrybut ten może posiadać jako wartość:
+         praca lub komorka i wartość ta jeżeli nie zostanie podana 
+         będzie równa "brak"
+         
+         <!ATTLIST wizytowka id CDATA #FIXED "2">
+         
+         deklaracja atrybutu id, ktory znajduje sie w elemencie wizytowka
+         jego typ, czyli zawartość to Character Data, jeego wartość jest ustalona z góry
+         i warto ta to "2"
+                  
+    -->
+
+

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ENTITY % dni_tygodnia "(1|2|3|4|5|6|7)">
+<!ATTLIST wizytowka dzien_zatrudnienia %dni_tygodnia #REQUIRED>
+<!ATTLIST wizytowka dzien_urodzin %dni_tygodnia #REQUIRED>
+
+<!ELEMENT wizytowki (wizytowka*)>
+
+<!ELEMENT wizytowka (imie, nazwisko, (telefon | e-mail)+, website)>
+<!ATTLIST wizytowka id ID #REQUIRED>
+
+<!ELEMENT imie (#PCDATA)>
+
+<!ELEMENT nazwisko (#PCDATA)>
+
+<!ELEMENT telefon (#PCDATA)>
+<!ATTLIST telefon typ (praca | fax | komorka | domowy) #REQUIRED>
+
+<!ELEMENT e-mail (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+

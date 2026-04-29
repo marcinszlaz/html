@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE wizytowki SYSTEM "wizytowki.dtd"
+[
+    <!ENTITY copyright "©">
+    <!ENTITY strona_www "<website>http://videokurs.pl</website>">
+]
+>
+
+<wizytowki>
+    <wizytowka dzien_urodzin="2" dzien_zatrudnienia="6" id="a1">
+        <imie>Arkadiusz</imie>
+        <nazwisko>Włodarczyk</nazwisko>
+        <telefon typ="praca">(0-14) 611-25-02</telefon>
+        <telefon typ="fax">(0-14) 611-25-02</telefon>
+        <telefon typ="komorka">606 192 567</telefon>
+        <e-mail>armiksos@gmail.com</e-mail>
+        &strona_www;
+    </wizytowka>
+    <wizytowka id="a2">
+        <imie>&copyright;Arkadiusz </imie>
+        <nazwisko>Włodarczyk</nazwisko>
+        <telefon typ="praca">(0-14) 611-25-01</telefon>
+        <telefon typ="komorka">606 192 567</telefon>
+        <e-mail>armiksos@gmail.com</e-mail>
+        &strona_www;
+
+    </wizytowka>
+</wizytowki>

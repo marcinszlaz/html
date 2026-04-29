@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE wizytowki [
+    <!ELEMENT wizytowki (wizytowka*)>
+    <!ELEMENT wizytowka (imie, nazwisko, (telefon | e-mail)+, website)>
+    <!ELEMENT imie (#PCDATA)>
+    <!ELEMENT nazwisko (#PCDATA)>
+    <!ELEMENT telefon (#PCDATA)>
+    <!ELEMENT e-mail (#PCDATA)>
+    <!ELEMENT website (#PCDATA)>
+    <!-- <!ELEMENT nazwa_elementu category_lub_zawartosc_elementu>
+         <!ELEMENT wizytowki EMPTY>
+         element wizytowki moze byc tylko pusty
+         <!ELEMENT wizytowki (wizytowka)>
+         element wizytowki musi posiadać dokładnie jeden element o nazwie wizytowka
+         
+         #PCDATA = Parsed Character Data 
+         
+         <!ELEMENT wizytowki (wizytowka*)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 0 lub wiecej razy
+         <!ELEMENT wizytowki (wizytowka+)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 1 lub wiecej razy
+         <!ELEMENT wizytowki (wizytowka?)>
+         element wizytowki posiada element wizytowka, ktory wystepuje 0 lub 1 raz
+         
+    -->
+]>
+
+<wizytowki>
+    <wizytowka id="1">
+        <imie>Arkadiusz</imie>
+        <nazwisko>Włodarczyk</nazwisko>
+        <telefon typ="praca">(0-14) 611-25-02</telefon>
+        <telefon typ="komorka">606 192 567</telefon>
+        <e-mail>armiksos@gmail.com</e-mail>
+        <website>http://videokurs.pl</website>
+    </wizytowka>
+    <wizytowka id="2">
+        <imie>Arkadiusz</imie>
+        <nazwisko>Włodarczyk</nazwisko>
+        <telefon typ="praca">(0-14) 611-25-01</telefon>        
+        <telefon typ="komorka">606 192 567</telefon>
+        <e-mail>armiksos@gmail.com</e-mail>
+        <website>http://videokurs.pl</website>
+    </wizytowka>
+</wizytowki>
